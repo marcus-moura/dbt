@@ -1,0 +1,39 @@
+
+version: 2
+
+models:
+  - name: dim_product
+    description: "Dimension Product"
+    columns:
+      - name: product_sk
+        description: "Verify the primary key product_sk"
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_customer
+    description: "Dimension Customer"
+    columns:
+      - name: customer_sk
+        description: "Verify the primary key customer_sk"
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_location
+    description: "Dimension Customer"
+    columns:
+      - name: location_sk
+        description: "Verify the primary key location_sk"
+        tests:
+          - unique
+          - not_null
+  
+  - name: dim_time
+    description: "Dimension time"
+    columns:
+      - name: time_sk
+        description: "Verify the primary key time_sk"
+        tests:
+          - unique
+          - not_null

@@ -1,0 +1,22 @@
+superstore_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: "{{env_var('User')}}"
+      password: "{{env_var('PASS_POSTGRES')}}"
+      port: 5432
+      dbname: postgres
+      schema: silver
+      threads: 4
+
+    prod:
+      type: postgres
+      host: localhost
+      user: "{{env_var('User')}}"
+      password: "{{env_var('PASS_POSTGRES')}}"
+      port: 5432
+      dbname: postgres
+      schema: gold
+      threads: 4

@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: sales
+    database: postgres  
+    schema: bronze  
+    tables:
+      - name: superstore_sales
