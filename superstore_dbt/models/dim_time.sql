@@ -3,14 +3,12 @@
 with cast_order_date as (
     SELECT distinct
         order_id,
-        product_id,
         order_date::timestamp as order_date
     FROM {{ source('sales', 'superstore_sales')}}
 )
 SELECT
     row_number() over() as time_sk,
     order_id,
-    product_id,
     order_date,
     EXTRACT(DAY FROM order_date) AS order_day,
     EXTRACT(MONTH FROM order_date) AS order_month,
