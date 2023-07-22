@@ -236,3 +236,82 @@ Runtime Error
 [0m10:21:46.976037 [debug] [MainThread]: Connection 'debug' was properly closed.
 [0m10:21:46.977041 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E97DDC1590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E97D26E1D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E97D26E750>]}
 [0m10:21:46.978043 [debug] [MainThread]: Flushing usage events
+[0m13:54:40.516223 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013559C4CF10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013559FC2750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013559490A10>]}
+
+
+============================== 13:54:40.522538 | 17f28e48-16ea-44d5-9338-61eaf11315cc ==============================
+[0m13:54:40.522538 [info ] [MainThread]: Running with dbt=1.5.3
+[0m13:54:40.524544 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\marcu\\OneDrive\\Área de Trabalho\\Materiais de estudo\\dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m13:54:40.524544 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\marcu\OneDrive\Área de Trabalho\Materiais de estudo\dbt\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m13:54:40.524544 [debug] [MainThread]: Command `dbt run` failed at 13:54:40.524544 after 0.03 seconds
+[0m13:54:40.524544 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013559FBBD90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000135599805D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013559982390>]}
+[0m13:54:40.524544 [debug] [MainThread]: Flushing usage events
+[0m13:55:04.781035 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001858A0BC2D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001858AA30E10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001858A0A3B10>]}
+
+
+============================== 13:55:04.786527 | d94fd536-c9ae-4b92-b796-6adf87967e6d ==============================
+[0m13:55:04.786527 [info ] [MainThread]: Running with dbt=1.5.3
+[0m13:55:04.788530 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\marcu\\OneDrive\\Área de Trabalho\\Materiais de estudo\\dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m13:55:04.789530 [info ] [MainThread]: dbt version: 1.5.3
+[0m13:55:04.791530 [info ] [MainThread]: python version: 3.11.4
+[0m13:55:04.792660 [info ] [MainThread]: python path: C:\Users\marcu\OneDrive\Área de Trabalho\Materiais de estudo\dbt\.venv\Scripts\python.exe
+[0m13:55:04.793922 [info ] [MainThread]: os info: Windows-10-10.0.22621-SP0
+[0m13:55:04.795751 [info ] [MainThread]: Using profiles.yml file at C:\Users\marcu\OneDrive\Área de Trabalho\Materiais de estudo\dbt\profiles.yml
+[0m13:55:04.796870 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\marcu\OneDrive\Área de Trabalho\Materiais de estudo\dbt\dbt_project.yml
+[0m13:55:04.798136 [info ] [MainThread]: Configuration:
+[0m13:55:04.809385 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'User'
+[0m13:55:04.811405 [debug] [MainThread]: Command `dbt debug` failed at 13:55:04.811405 after 0.05 seconds
+[0m13:55:04.812853 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001858A0A2710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001858A08E550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001858A08E8D0>]}
+[0m13:55:04.813709 [debug] [MainThread]: Flushing usage events
+[0m13:55:51.306297 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013836A8E350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013836561710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013836654F10>]}
+
+
+============================== 13:55:51.310350 | cb99bb85-eb96-4072-bf7c-95dc48d37b12 ==============================
+[0m13:55:51.310350 [info ] [MainThread]: Running with dbt=1.5.3
+[0m13:55:51.313334 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\marcu\\OneDrive\\Área de Trabalho\\Materiais de estudo\\dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m13:55:51.314343 [info ] [MainThread]: dbt version: 1.5.3
+[0m13:55:51.316527 [info ] [MainThread]: python version: 3.11.4
+[0m13:55:51.317532 [info ] [MainThread]: python path: C:\Users\marcu\OneDrive\Área de Trabalho\Materiais de estudo\dbt\.venv\Scripts\python.exe
+[0m13:55:51.318786 [info ] [MainThread]: os info: Windows-10-10.0.22621-SP0
+[0m13:55:51.320830 [info ] [MainThread]: Using profiles.yml file at C:\Users\marcu\OneDrive\Área de Trabalho\Materiais de estudo\dbt\profiles.yml
+[0m13:55:51.322012 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\marcu\OneDrive\Área de Trabalho\Materiais de estudo\dbt\dbt_project.yml
+[0m13:55:51.323300 [info ] [MainThread]: Configuration:
+[0m13:55:51.397044 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m13:55:51.399238 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m13:55:51.400296 [info ] [MainThread]: Required dependencies:
+[0m13:55:51.402655 [debug] [MainThread]: Executing "git --help"
+[0m13:55:51.425265 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m13:55:51.426266 [debug] [MainThread]: STDERR: "b''"
+[0m13:55:51.427388 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m13:55:51.428396 [info ] [MainThread]: Connection:
+[0m13:55:51.430395 [info ] [MainThread]:   host: localhost
+[0m13:55:51.431397 [info ] [MainThread]:   port: 5432
+[0m13:55:51.432393 [info ] [MainThread]:   user: postgres
+[0m13:55:51.432393 [info ] [MainThread]:   database: postgres
+[0m13:55:51.433803 [info ] [MainThread]:   schema: silver
+[0m13:55:51.434823 [info ] [MainThread]:   search_path: None
+[0m13:55:51.435829 [info ] [MainThread]:   keepalives_idle: 0
+[0m13:55:51.437191 [info ] [MainThread]:   sslmode: None
+[0m13:55:51.439090 [info ] [MainThread]: Registered adapter: postgres=1.5.3
+[0m13:55:51.440097 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m13:55:51.441094 [debug] [MainThread]: Using postgres connection "debug"
+[0m13:55:51.442095 [debug] [MainThread]: On debug: select 1 as id
+[0m13:55:51.442095 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m13:55:51.490748 [debug] [MainThread]: SQL status: SELECT 1 in 0.0 seconds
+[0m13:55:51.491867 [debug] [MainThread]: On debug: Close
+[0m13:55:51.492895 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m13:55:51.493893 [info ] [MainThread]: [31m1 check failed:[0m
+[0m13:55:51.494894 [info ] [MainThread]: Could not load dbt_project.yml
+
+[0m13:55:51.496894 [debug] [MainThread]: Command `dbt debug` failed at 13:55:51.496894 after 0.21 seconds
+[0m13:55:51.496894 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m13:55:51.496894 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013836A8E410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001383606E210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013836127CD0>]}
+[0m13:55:51.498215 [debug] [MainThread]: Flushing usage events

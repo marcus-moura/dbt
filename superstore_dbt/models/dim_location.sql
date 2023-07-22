@@ -2,7 +2,6 @@
 
 with dedup as (
     SELECT distinct
-        product_id,
         country,
         city, 
         state, 
@@ -12,7 +11,6 @@ with dedup as (
 )
 SELECT 
     row_number() over() as location_sk,
-    product_id,
     country,
     city, 
     state, 
