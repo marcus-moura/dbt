@@ -1,4 +1,4 @@
-# Projeto ELT utilizando Kaggle como Source, Python para a Etapa EL e DBT Core para a Etapa T
+# Projeto ELT com Kaggle, Python e DBT Core
 Este é um projeto simples de Extração, Carregamento e Transformação (ELT) de dados utilizando o Kaggle como fonte de dados, um script Python para a etapa EL e o Postgres como Data Warehouse (DW), além do DBT Core para a etapa de Transformação (T).
 
 ### Objetivo do Projeto
