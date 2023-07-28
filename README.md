@@ -8,7 +8,7 @@ Este é um projeto simples de ELT utilizando dados do kaggle como source, um scr
     - Nesse caso é utilizado o script python(el_postgres) para ler os arquivos e escrever em um banco de dados postgres.
 2. Fazer a etapa T(transformation) do ELT utilizando o framework DBT Core
     - Passos
-        - Modeladar no formato Start-Schema da modelagem dimensional
+        - Modelar no formato Start-Schema da modelagem dimensional
         - Realizar testes em ambiente dev
         - Realizar o deploy em prod
         - Gerar a documentação
